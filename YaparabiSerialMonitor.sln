@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YaparabiSerialMonitor", "YaparabiSerialMonitor\YaparabiSerialMonitor.csproj", "{00E98DBF-3E0E-491B-B9F0-5DB23B48276E}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "YaparabiSerialMonitorInstaller", "YaparabiSerialMonitorInstaller\YaparabiSerialMonitorInstaller.vdproj", "{4A12C4CD-834D-480C-8918-0DFB3E1F0E06}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +15,6 @@ Global
 		{00E98DBF-3E0E-491B-B9F0-5DB23B48276E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00E98DBF-3E0E-491B-B9F0-5DB23B48276E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00E98DBF-3E0E-491B-B9F0-5DB23B48276E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A12C4CD-834D-480C-8918-0DFB3E1F0E06}.Debug|Any CPU.ActiveCfg = Debug
-		{4A12C4CD-834D-480C-8918-0DFB3E1F0E06}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
