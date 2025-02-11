@@ -14,14 +14,14 @@ A simple and modern Serial Port Monitor for Windows. Perfect for debugging Ardui
 - 🧹 Clear terminal option
 
 ## Releases
-- [v1.0.0](https://github.com/yaparabi/YaparabiSerialMonitor/releases/tag/v1.0.0) - Initial Release
+- [v1.0.0](https://github.com/fahreddinaykut/YaparabiSerialMonitor/releases/tag/v1.0.0) - Initial Release
   - Basic serial port monitoring
   - Auto-detection of devices
   - Dark theme interface
 
 ## How to Use
 1. **Download & Install**
-   - Download the latest zip from [Releases](https://github.com/yaparabi/YaparabiSerialMonitor/releases)
+   - Download the latest zip from [Releases](https://github.com/fahreddinaykut/YaparabiSerialMonitor/releases)
    - Extract the zip file
    - Run YaparabiSerialMonitor.exe
 
