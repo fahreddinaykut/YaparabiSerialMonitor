@@ -145,26 +145,34 @@
                 <Button x:Name="connectButton" 
                 Grid.Column="5"
                 Content="Connect" 
-                Width="120"
+                Width="100"
                 Click="ConnectButton_Click"/>
 
                 <Button x:Name="resetButton" 
                 Grid.Column="7"
                 Content="Reset" 
-                Width="120"
+                Width="100"
                 Click="ResetButton_Click"/>
 
                 <Button x:Name="clearButton" 
                 Grid.Column="9"
                 Content="Clear" 
-                Width="120"
+                Width="100"
                 Click="ClearButton_Click"/>
 
-                <CheckBox x:Name="autoScrollCheckBox" 
-          Grid.Column="11"
-          Content="Autoscroll"
-          IsChecked="True"
-          Checked="AutoScrollCheckBox_Checked"/>
+                <StackPanel Grid.Column="11" 
+            Orientation="Vertical" 
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+                    <CheckBox x:Name="autoScrollCheckBox" 
+              Content="Autoscroll"
+              IsChecked="True"
+              Checked="AutoScrollCheckBox_Checked"
+              Margin="0,0,0,5"/>
+                    <CheckBox x:Name="timestampCheckBox" 
+              Content="Show Timestamp"
+              IsChecked="True"/>
+                </StackPanel>
             </Grid>
         </Border>
 

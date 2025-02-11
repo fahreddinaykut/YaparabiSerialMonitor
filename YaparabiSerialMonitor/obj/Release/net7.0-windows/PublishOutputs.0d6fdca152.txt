@@ -1,0 +1,16 @@
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\YaparabiSerialMonitor.exe
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\YaparabiSerialMonitor.dll
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\YaparabiSerialMonitor.deps.json
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\YaparabiSerialMonitor.runtimeconfig.json
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\YaparabiSerialMonitor.pdb
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\System.CodeDom.dll
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\System.IO.Ports.dll
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\System.Management.dll
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\runtimes\unix\lib\net7.0\System.IO.Ports.dll
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\runtimes\win\lib\net7.0\System.IO.Ports.dll
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\runtimes\win\lib\net7.0\System.Management.dll

@@ -1,0 +1,8 @@
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\YaparabiSerialMonitor.exe
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\YaparabiSerialMonitor.dll
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\YaparabiSerialMonitor.deps.json
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\YaparabiSerialMonitor.runtimeconfig.json
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\YaparabiSerialMonitor.pdb
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\System.CodeDom.dll
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\System.IO.Ports.dll
+C:\Users\Fahreddin\Desktop\Fahreddin\Firmware\YaparabiSerialMonitorPublish\System.Management.dll

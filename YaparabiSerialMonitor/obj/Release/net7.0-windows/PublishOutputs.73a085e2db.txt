@@ -1,0 +1,16 @@
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\YaparabiSerialMonitor.exe
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\YaparabiSerialMonitor.dll
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\YaparabiSerialMonitor.deps.json
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\YaparabiSerialMonitor.runtimeconfig.json
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\YaparabiSerialMonitor.pdb
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\System.CodeDom.dll
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\System.IO.Ports.dll
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\System.Management.dll
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\runtimes\unix\lib\net7.0\System.IO.Ports.dll
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\runtimes\win\lib\net7.0\System.IO.Ports.dll
+C:\Users\Fahreddin\source\repos\YaparabiSerialMonitor\YaparabiSerialMonitor\bin\Release\net7.0-windows\app.publish\runtimes\win\lib\net7.0\System.Management.dll

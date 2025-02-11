@@ -146,22 +146,6 @@ namespace YaparabiSerialMonitor
                 });
             }
         }
-        private void AppendToTerminal(string text)
-        {
-            Dispatcher.Invoke(() =>
-            {
-                terminalBuffer.Append($"{DateTime.Now:HH:mm:ss.fff} > {text}");
-
-                dataTextBox.Document.Blocks.Clear();
-                var paragraph = new Paragraph(new Run(terminalBuffer.ToString()));
-                dataTextBox.Document.Blocks.Add(paragraph);
-
-                if (autoScrollCheckBox.IsChecked == true)
-                {
-                    dataTextBox.ScrollToEnd();
-                }
-            });
-        }
         private async void InitializeSerialPortsAsync()
         {
             await InitializeSerialPorts();
@@ -606,14 +590,12 @@ namespace YaparabiSerialMonitor
         private async void SerialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             if (serialPort == null) return;
-
             try
             {
                 await serialPortLock.WaitAsync();
                 try
                 {
                     if (!serialPort.IsOpen) return;
-
                     // Read available data
                     string data = await Task.Run(() =>
                     {
@@ -632,24 +614,36 @@ namespace YaparabiSerialMonitor
                     {
                         // Add the new data to our buffer
                         messageBuffer.Append(data);
-
                         // Process complete lines
                         string bufferStr = messageBuffer.ToString();
                         int newlineIndex;
-
                         while ((newlineIndex = bufferStr.IndexOf('\n')) != -1)
                         {
                             // Extract the complete line
                             string line = bufferStr.Substring(0, newlineIndex).Trim();
                             if (!string.IsNullOrEmpty(line))
                             {
-                                messageQueue.Enqueue($"{DateTime.Now:HH:mm:ss.fff} > {line}{Environment.NewLine}");
-                            }
+                                bool showTimestamp = false;
+                                // Get timestamp checkbox state from UI thread
+                                await Dispatcher.InvokeAsync(() =>
+                                {
+                                    showTimestamp = timestampCheckBox.IsChecked ?? false;
+                                });
 
+                                string formattedLine;
+                                if (showTimestamp)
+                                {
+                                    formattedLine = $"{DateTime.Now:HH:mm:ss.fff} > {line}{Environment.NewLine}";
+                                }
+                                else
+                                {
+                                    formattedLine = $"{line}{Environment.NewLine}";
+                                }
+                                messageQueue.Enqueue(formattedLine);
+                            }
                             // Remove the processed line from the buffer
                             bufferStr = bufferStr.Substring(newlineIndex + 1);
                         }
-
                         // Update the buffer with any remaining incomplete data
                         messageBuffer.Clear();
                         messageBuffer.Append(bufferStr);
@@ -668,7 +662,6 @@ namespace YaparabiSerialMonitor
                 }
             }
         }
-
 
         private bool IsPortAvailable(string portName)
         {
@@ -763,6 +756,7 @@ namespace YaparabiSerialMonitor
             if (autoScrollCheckBox.IsChecked == true && dataTextBox != null)
             {
                 dataTextBox.ScrollToEnd();
+
             }
         }
         private void ResetButton_Click(object sender, RoutedEventArgs e)
