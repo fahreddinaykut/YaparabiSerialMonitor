@@ -23,12 +23,12 @@ A simple and modern Serial Port Monitor for Windows. Perfect for debugging Ardui
 1. **Download & Install**
    - Download the latest zip from [Releases](https://github.com/fahreddinaykut/YaparabiSerialMonitor/releases)
    - Extract the zip file
-   - Run YaparabiSerialMonitor.exe
+   - Run setup.exe
 
 2. **Connect Your Device**
    - Plug in your Arduino/ESP32 or other serial device
    - Select the correct port from the dropdown menu
-   - Choose the appropriate baud rate (usually 9600 for Arduino, 115200 for ESP32)
+   - Choose the appropriate baud rate
    - Click "Connect"
 
 3. **Monitor Serial Data**
